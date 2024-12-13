@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>whack_a_mole.camera module &mdash; whack_a_mole 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=86f27845" />
+
+  
+  
+        <script src="_static/jquery.js?v=8dae8fb0"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=8d563738"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="whack_a_mole.constants module" href="whack_a_mole.constants.html" />
+    <link rel="prev" title="whack_a_mole.arduino_hint module" href="whack_a_mole.arduino_hint.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            whack_a_mole
+          </a>
+              <div class="version">
+                1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Python API</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="whack_a_mole.html">whack_a_mole package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="whack_a_mole.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="whack_a_mole.arduino_hint.html">whack_a_mole.arduino_hint module</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">whack_a_mole.camera module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="whack_a_mole.constants.html">whack_a_mole.constants module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="whack_a_mole.game.html">whack_a_mole.game module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="whack_a_mole.mole_detection.html">whack_a_mole.mole_detection module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="whack_a_mole.serial_comm.html">whack_a_mole.serial_comm module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="whack_a_mole.swing.html">whack_a_mole.swing module</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="whack_a_mole.html#module-whack_a_mole">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="standards.html">Standard Documents</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="standard_docs/LICENSE.html">LICENSE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="standard_docs/PACKAGE.html">PACKAGE</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">whack_a_mole</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">whack_a_mole</a></li>
+          <li class="breadcrumb-item"><a href="whack_a_mole.html">whack_a_mole package</a></li>
+      <li class="breadcrumb-item active">whack_a_mole.camera module</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/whack_a_mole.camera.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-whack_a_mole.camera">
+<span id="whack-a-mole-camera-module"></span><h1>whack_a_mole.camera module<a class="headerlink" href="#module-whack_a_mole.camera" title="Link to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="whack_a_mole.camera.Camera">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">whack_a_mole.camera.</span></span><span class="sig-name descname"><span class="pre">Camera</span></span><a class="headerlink" href="#whack_a_mole.camera.Camera" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Node</span></code></p>
+<p>Camera node that detects the color of the object and broadcasts the frame.</p>
+<dl class="simple">
+<dt><strong>Parameters</strong>:</dt><dd><p>clipping_distance (int): The clipping distance for the depth image
+box_start_x (int): The starting x coordinate for the bounding box
+box_end_x (int): The ending x coordinate for the bounding box
+box_start_y (int): The starting y coordinate for the bounding box
+box_end_y (int): The ending y coordinate for the bounding box</p>
+</dd>
+<dt><strong>Publisher</strong>:</dt><dd><p>filtered_image (Image): The filtered image</p>
+</dd>
+<dt><strong>Subscriber</strong>:</dt><dd><p>/camera/camera/aligned_depth_to_color/image_raw (Image): The depth image
+/camera/camera/color/image_raw (Image): The color image
+/camera/camera/color/camera_info (CameraInfo): The camera info</p>
+</dd>
+<dt><strong>Service</strong>:</dt><dd><p>toggle_tf_publish (Empty): Toggles the update_colors variable</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="whack_a_mole.camera.Camera.broadcast_color">
+<span class="sig-name descname"><span class="pre">broadcast_color</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lower_HSV</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">higher_HSV</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">color</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.camera.Camera.broadcast_color" title="Link to this definition"></a></dt>
+<dd><p>Broadcasts the color frame based on HSV range.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>lower_HSV</strong> (<em>numpy.array</em>) – The lower HSV range.</p></li>
+<li><p><strong>higher_HSV</strong> (<em>numpy.array</em>) – The higher HSV range.</p></li>
+<li><p><strong>color</strong> (<em>str</em>) – The name of the color of the object.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="whack_a_mole.camera.Camera.broadcast_color_frame">
+<span class="sig-name descname"><span class="pre">broadcast_color_frame</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_frame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">child_frame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_c</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y_c</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.camera.Camera.broadcast_color_frame" title="Link to this definition"></a></dt>
+<dd><p>Broadcasts the transform for a detected color frame.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>base_frame</strong> (<em>str</em>) – The base frame’s name.</p></li>
+<li><p><strong>child_frame</strong> (<em>str</em>) – The child frame’s name.</p></li>
+<li><p><strong>x_c</strong> (<em>int</em>) – The x-coordinate of the detected color’s centroid in the image.</p></li>
+<li><p><strong>y_c</strong> (<em>int</em>) – The y-coordinate of the detected color’s centroid in the image.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="whack_a_mole.camera.Camera.camera_info_callback">
+<span class="sig-name descname"><span class="pre">camera_info_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.camera.Camera.camera_info_callback" title="Link to this definition"></a></dt>
+<dd><p>Publish new camera hardware info.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>msg</strong> (<cite>CameraInfo</cite>) – The <cite>CameraInfo</cite> message containing intrinsic parameters.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="whack_a_mole.camera.Camera.find_color_centroid">
+<span class="sig-name descname"><span class="pre">find_color_centroid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lower_HSV</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">array</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">higher_HSV</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">array</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.camera.Camera.find_color_centroid" title="Link to this definition"></a></dt>
+<dd><p>Find the pixel indices of the centroid of a color defined in the given HSV range.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>lower_HSV</strong> (<em>numpy.array</em>) – The lower HSV range for the color.</p></li>
+<li><p><strong>higher_HSV</strong> (<em>numpy.array</em>) – The higher HSV range for the color.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The (x, y) centroid of the color.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>tuple(int, int)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="whack_a_mole.camera.Camera.get_color_info">
+<span class="sig-name descname"><span class="pre">get_color_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Image</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.camera.Camera.get_color_info" title="Link to this definition"></a></dt>
+<dd><p>Publish new camera color info.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>msg</strong> (<cite>Image</cite>) – The color image message.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="whack_a_mole.camera.Camera.get_depth_info">
+<span class="sig-name descname"><span class="pre">get_depth_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Image</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.camera.Camera.get_depth_info" title="Link to this definition"></a></dt>
+<dd><p>Publish new camera depth info.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>msg</strong> (<cite>Image</cite>) – The depth image message.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="whack_a_mole.camera.Camera.log">
+<span class="sig-name descname"><span class="pre">log</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">message</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.camera.Camera.log" title="Link to this definition"></a></dt>
+<dd><p>Log custom messages.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>message</strong> (<em>str</em>) – The message(s) to log.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="whack_a_mole.camera.Camera.timer_callback">
+<span class="sig-name descname"><span class="pre">timer_callback</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.camera.Camera.timer_callback" title="Link to this definition"></a></dt>
+<dd><p>Timer callback that detects the color of the object and broadcasts the frame.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>None</strong> (<em>NoneType</em>) – No arguments required for this function.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="whack_a_mole.camera.Camera.toggle_tf_publish">
+<span class="sig-name descname"><span class="pre">toggle_tf_publish</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">response</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.camera.Camera.toggle_tf_publish" title="Link to this definition"></a></dt>
+<dd><p>Toggles the <cite>update_colors</cite> variable to start/stop publishing the color frames.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>request</strong> (<cite>Empty.Request</cite>) – Empty request.</p></li>
+<li><p><strong>response</strong> (<cite>Empty.Response</cite>) – Empty response.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the response.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><cite>Empty.Response</cite></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="whack_a_mole.camera.entry">
+<span class="sig-prename descclassname"><span class="pre">whack_a_mole.camera.</span></span><span class="sig-name descname"><span class="pre">entry</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">args</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.camera.entry" title="Link to this definition"></a></dt>
+<dd><p>Entry point for starting the ROS2 Camera node.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>args</strong> (<em>list</em><em> or </em><em>NoneType</em>) – The arguments passed for initialization.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="whack_a_mole.arduino_hint.html" class="btn btn-neutral float-left" title="whack_a_mole.arduino_hint module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="whack_a_mole.constants.html" class="btn btn-neutral float-right" title="whack_a_mole.constants module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright The &lt;whack_a_mole&gt; Contributors. License: MIT.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

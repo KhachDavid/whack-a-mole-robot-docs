@@ -1,0 +1,7 @@
+whack_a_mole
+============
+
+.. toctree::
+   :maxdepth: 4
+
+   whack_a_mole

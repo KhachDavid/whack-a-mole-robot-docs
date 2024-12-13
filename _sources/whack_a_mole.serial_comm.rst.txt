@@ -1,0 +1,7 @@
+whack\_a\_mole.serial\_comm module
+==================================
+
+.. automodule:: whack_a_mole.serial_comm
+   :members:
+   :undoc-members:
+   :show-inheritance:

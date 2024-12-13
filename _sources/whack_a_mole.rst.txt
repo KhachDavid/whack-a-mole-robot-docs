@@ -1,0 +1,24 @@
+whack\_a\_mole package
+======================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   whack_a_mole.arduino_hint
+   whack_a_mole.camera
+   whack_a_mole.constants
+   whack_a_mole.game
+   whack_a_mole.mole_detection
+   whack_a_mole.serial_comm
+   whack_a_mole.swing
+
+Module contents
+---------------
+
+.. automodule:: whack_a_mole
+   :members:
+   :undoc-members:
+   :show-inheritance:

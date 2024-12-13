@@ -1,0 +1,7 @@
+whack\_a\_mole.constants module
+===============================
+
+.. automodule:: whack_a_mole.constants
+   :members:
+   :undoc-members:
+   :show-inheritance:

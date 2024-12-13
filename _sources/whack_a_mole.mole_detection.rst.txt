@@ -1,0 +1,7 @@
+whack\_a\_mole.mole\_detection module
+=====================================
+
+.. automodule:: whack_a_mole.mole_detection
+   :members:
+   :undoc-members:
+   :show-inheritance:

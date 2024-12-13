@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>whack_a_mole.mole_detection module &mdash; whack_a_mole 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=86f27845" />
+
+  
+  
+        <script src="_static/jquery.js?v=8dae8fb0"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=8d563738"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="whack_a_mole.serial_comm module" href="whack_a_mole.serial_comm.html" />
+    <link rel="prev" title="whack_a_mole.game module" href="whack_a_mole.game.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            whack_a_mole
+          </a>
+              <div class="version">
+                1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Python API</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="whack_a_mole.html">whack_a_mole package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="whack_a_mole.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="whack_a_mole.arduino_hint.html">whack_a_mole.arduino_hint module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="whack_a_mole.camera.html">whack_a_mole.camera module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="whack_a_mole.constants.html">whack_a_mole.constants module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="whack_a_mole.game.html">whack_a_mole.game module</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">whack_a_mole.mole_detection module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="whack_a_mole.serial_comm.html">whack_a_mole.serial_comm module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="whack_a_mole.swing.html">whack_a_mole.swing module</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="whack_a_mole.html#module-whack_a_mole">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="standards.html">Standard Documents</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="standard_docs/LICENSE.html">LICENSE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="standard_docs/PACKAGE.html">PACKAGE</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">whack_a_mole</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">whack_a_mole</a></li>
+          <li class="breadcrumb-item"><a href="whack_a_mole.html">whack_a_mole package</a></li>
+      <li class="breadcrumb-item active">whack_a_mole.mole_detection module</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/whack_a_mole.mole_detection.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-whack_a_mole.mole_detection">
+<span id="whack-a-mole-mole-detection-module"></span><h1>whack_a_mole.mole_detection module<a class="headerlink" href="#module-whack_a_mole.mole_detection" title="Link to this heading"></a></h1>
+<p>Python library for CV operations for the Whack-a-Mole game.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="whack_a_mole.mole_detection.OpenCVClient">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">whack_a_mole.mole_detection.</span></span><span class="sig-name descname"><span class="pre">OpenCVClient</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">freq</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">30.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">clipping_distance</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1400</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crop</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[(1,</span> <span class="pre">1),</span> <span class="pre">(1,</span> <span class="pre">1)]</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.mole_detection.OpenCVClient" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class to handle the OpenCV operations for the mole detection.</p>
+<section id="attributes">
+<h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>clipping_distance (int): The clipping distance for the depth image.</p></li>
+<li><p>crop (list): The crop region for the image.</p></li>
+<li><dl class="simple">
+<dt>_running_avg (dict): A dictionary to store the running average of the</dt><dd><p>centroids.</p>
+</dd>
+</dl>
+</li>
+<li><p>_camera_intrinsics (np.array): The camera intrinsics.</p></li>
+<li><p>_color_image (np.array): The color image.</p></li>
+<li><p>_depth_image (np.array): The depth image.</p></li>
+</ul>
+</section>
+<section id="functions">
+<h2>Functions:<a class="headerlink" href="#functions" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>find_centroid_cropped(masked_image, crop_indices):</dt><dd><p>Find the centroid of the largest contour within a specified crop
+region.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>find_color_centroid(lower_HSV, higher_HSV):</dt><dd><p>Returns the pixel indecies of the centroid of a color defined in
+lower_HSV , higher_HSV range</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>get_3d_coordinates_at_pixel(x, y, frame_name):</dt><dd><p>Convert the pixel coordinates (x, y) to 3D camera coordinates
+in meters.</p>
+</dd>
+</dl>
+</li>
+</ul>
+<dl class="py property">
+<dt class="sig sig-object py" id="whack_a_mole.mole_detection.OpenCVClient.camera_intrinsics">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">camera_intrinsics</span></span><a class="headerlink" href="#whack_a_mole.mole_detection.OpenCVClient.camera_intrinsics" title="Link to this definition"></a></dt>
+<dd><p>Getter for the camera intrinsics.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="whack_a_mole.mole_detection.OpenCVClient.color_image">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">color_image</span></span><a class="headerlink" href="#whack_a_mole.mole_detection.OpenCVClient.color_image" title="Link to this definition"></a></dt>
+<dd><p>Getter for the color image.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="whack_a_mole.mole_detection.OpenCVClient.depth_image">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">depth_image</span></span><a class="headerlink" href="#whack_a_mole.mole_detection.OpenCVClient.depth_image" title="Link to this definition"></a></dt>
+<dd><p>Getter for the depth image.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="whack_a_mole.mole_detection.OpenCVClient.detect_illumination">
+<span class="sig-name descname"><span class="pre">detect_illumination</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">color</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.mole_detection.OpenCVClient.detect_illumination" title="Link to this definition"></a></dt>
+<dd><p>Detect the illumination of the mole.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="whack_a_mole.mole_detection.OpenCVClient.find_centroid_cropped">
+<span class="sig-name descname"><span class="pre">find_centroid_cropped</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">masked_image</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">crop_indices</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.mole_detection.OpenCVClient.find_centroid_cropped" title="Link to this definition"></a></dt>
+<dd><p>Find the centroid of the largest contour in specified crop region.</p>
+<section id="args">
+<h3>Args:<a class="headerlink" href="#args" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>masked_image (np.array): The masked image to process.</p></li>
+<li><dl class="simple">
+<dt>crop_indices (tuple): A tuple (x1, y1, x2, y2) specifying the crop</dt><dd><p>region.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="returns">
+<h3>Returns<a class="headerlink" href="#returns" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><dl class="simple">
+<dt>(int, int): The (x, y) coordinates of the centroid in the original</dt><dd><p>image.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="whack_a_mole.mole_detection.OpenCVClient.get_3d_coordinates_at_pixel">
+<span class="sig-name descname"><span class="pre">get_3d_coordinates_at_pixel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frame_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#whack_a_mole.mole_detection.OpenCVClient.get_3d_coordinates_at_pixel" title="Link to this definition"></a></dt>
+<dd><p>Convert the pixel coordinates (x, y) to 3D coordinates in meters.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="whack_a_mole.mole_detection.OpenCVClient.running_avg">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">running_avg</span></span><a class="headerlink" href="#whack_a_mole.mole_detection.OpenCVClient.running_avg" title="Link to this definition"></a></dt>
+<dd><p>Getter for the running average.</p>
+</dd></dl>
+
+</section>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="whack_a_mole.game.html" class="btn btn-neutral float-left" title="whack_a_mole.game module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="whack_a_mole.serial_comm.html" class="btn btn-neutral float-right" title="whack_a_mole.serial_comm module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright The &lt;whack_a_mole&gt; Contributors. License: MIT.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

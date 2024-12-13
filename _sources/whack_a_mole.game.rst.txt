@@ -1,0 +1,7 @@
+whack\_a\_mole.game module
+==========================
+
+.. automodule:: whack_a_mole.game
+   :members:
+   :undoc-members:
+   :show-inheritance:

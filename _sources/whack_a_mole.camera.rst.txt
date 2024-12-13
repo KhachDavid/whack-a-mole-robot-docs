@@ -1,0 +1,7 @@
+whack\_a\_mole.camera module
+============================
+
+.. automodule:: whack_a_mole.camera
+   :members:
+   :undoc-members:
+   :show-inheritance:
